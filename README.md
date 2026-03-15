@@ -1,6 +1,6 @@
 # Corne ZMK Config
 
-This folder is a fresh `zmk-config` for a `Corne` on `nice!nano` with `ZMK Studio` support enabled on the left half.
+This folder is a fresh `zmk-config` for a `Corne` on `nice!nano v2` with `ZMK Studio` support enabled on the left half.
 
 ## Files
 
@@ -16,6 +16,7 @@ This folder is a fresh `zmk-config` for a `Corne` on `nice!nano` with `ZMK Studi
 - `CONFIG_BT_CTLR_PHY_2M=n` is enabled because it can improve Bluetooth compatibility on some hosts.
 - `Layer 3` was mapped as a keypad-style block because the screenshot layout matched a numpad arrangement.
 - The config is intended to stay editable in `ZMK Studio`. Once flashed, Studio changes will live on the keyboard until you reset them.
+- The repo is pinned to `ZMK v0.3` to avoid the breaking board-variant changes currently present on `main`.
 
 ## Build
 
